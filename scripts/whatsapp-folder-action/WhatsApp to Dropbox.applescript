@@ -1,5 +1,5 @@
 on adding folder items to theFolder after receiving addedItems
-    set destinationFolder to (POSIX file "/Users/edu/dropbox/edu/Downloads") as alias
+    set destinationFolder to (POSIX file "/Users/edu/dropbox/Downloads") as alias
     tell application "Finder"
         repeat with theItem in addedItems
             set itemPath to POSIX path of (theItem as alias)
