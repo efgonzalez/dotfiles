@@ -3,13 +3,12 @@
 ## WhatsApp downloads
 
 ### Prerequisites
-1. Install Dropbox for macOS. The app syncs to `~/Library/CloudStorage/Dropbox-Efesis`.
-2. Create symlinks to that folder:
+1. Install Dropbox for macOS.
+2. Create the symlink:
    ```bash
-   ln -s ~/Library/CloudStorage/Dropbox-Efesis ~/dropbox
-   ln -s ~/Library/CloudStorage/Dropbox-Efesis ~/Dropbox
+   ln -s /Users/edu/Dropbox-Efesis/edu /Users/edu/dropbox
    ```
-3. Confirm `~/dropbox/edu/Downloads` exists before proceeding.
+3. Confirm `~/dropbox/Downloads` exists before proceeding.
 
 ### Folder Action
 WhatsApp on macOS saves files to ~/Downloads. A Folder Action is installed
